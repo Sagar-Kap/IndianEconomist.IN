@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://www.indianeconomist.in/"
 title: Indian Economist
 paginate: 5
 theme: PaperMod
@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: 
+googleAnalytics: G-M4D19KEQXV
 
 minify:
     disableXML: true
@@ -16,17 +16,17 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
+    title: The Indian Economist
+    description: "The place of for all kinds of Economics"
     keywords: [Blog, Portfolio, PaperMod]
     author: Me
     # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
+    images: ["Economics.jpg"]
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
-    ShowReadingTime: true
+    ShowReadingTime: false
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
@@ -40,13 +40,12 @@ params:
     tocopen: false
 
     assets:
-        # disableHLJS: true # to disable highlight.js
-        # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+      favicon: favicon/favicon.ico
+      favicon16x16: favicon/favicon-16x16.png
+      favicon32x32: favicon/favicon-32x32.png
+      apple_touch_icon: favicon/apple-touch-icon.png
+      android-chrome: favicon/android-chrome-512x512.png
+
 
     label:
         text: "Home"
@@ -70,8 +69,8 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Title: "The Indian Economist"
+        Content: Welcome to Economics!
 
     socialIcons:
         - name: twitter
@@ -81,13 +80,6 @@ params:
         - name: github
           url: "https://github.com/"
 
-    analytics:
-        google:
-            SiteVerificationTag: "XYZabc"
-        bing:
-            SiteVerificationTag: "XYZabc"
-        yandex:
-            SiteVerificationTag: "XYZabc"
 
     cover:
         hidden: true # hide everywhere but not in structured data

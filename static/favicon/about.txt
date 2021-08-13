@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Delius Unicase
+- Font Author: Copyright (c) 2010, 2011, Natalia Raices<nraices@gmail.com>, with Reserved Font Name "Delius" "Delius Unicase" "Delius Swash Caps".
+- Font Source: http://fonts.gstatic.com/s/deliusunicase/v16/845BNMEwEIOVT8BmgfSzIr_6mmLHd-73LXWs.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
