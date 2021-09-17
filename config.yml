@@ -23,7 +23,7 @@ params:
     # author: ["Me", "You"] # multiple authors
     images: ["Economics.jpg"]
     DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
+    defaultTheme:  dark #auto, light
     disableThemeToggle: false
 
     ShowReadingTime: false
