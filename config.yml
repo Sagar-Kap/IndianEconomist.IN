@@ -3,12 +3,16 @@ title: Indian Economist
 paginate: 5
 theme: PaperMod
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-googleAnalytics: G-M4D19KEQXV
 
 minify:
     disableXML: true
@@ -18,8 +22,8 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: The Indian Economist
     description: "The place of for all kinds of Economics"
-    keywords: [Blog, Portfolio, PaperMod]
-    author: Me
+    keywords: [Marketing, Economics, Indian Economics, Digital Marketing]
+    author: 
     # author: ["Me", "You"] # multiple authors
     images: ["Economics.jpg"]
     DateFormat: "January 2, 2006"
@@ -30,13 +34,13 @@ params:
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
+    ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
     hidemeta: false
     hideSummary: false
-    showtoc: false
+    showtoc: true
     tocopen: false
 
     assets:
@@ -48,7 +52,7 @@ params:
 
 
     label:
-        text: "Home"
+        text: "The Indian Economist"
         icon: /favicon/apple-touch-icon.png
         iconHeight: 35
 
@@ -69,25 +73,34 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "The Indian Economist"
-        Content: Welcome to Economics!
+        Title: "Hello there 👋"
+        Content: |
+          - Welcome to my site! While completing my MA in Digital Marketing and Social Media, I started learning programming.
+          -
+          - What sarted as a journey to help myself set up analytics code on business sites, ended up with me detailing everything out that I learn along the way, which I can reference to later.
+          -
+          - So go ahead, dive in and help yourself with whatever you can!
 
     socialIcons:
         - name: linkedin
           url: "https://www.linkedin.com/in/sagarkapr/"
         - name: github
-          url: "https://github.com/Trainee-Ninja"
+          url: "https://github.com/sagar-kap"
+        - name: twitter
+          url: "https://twitter.com/SagarKapr" 
+        - name: stackoverflow 
+          url: "https://stackoverflow.com/users/14096244/sagar-kapoor"
 
 
     cover:
         hidden: true # hide everywhere but not in structured data
         hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+        hiddenInSingle: false # hide on single page
 
-    editPost:
-        URL: "https://github.com/<path_to_repo>/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+    #editPost:
+        #URL: "https://github.com/<path_to_repo>/content"
+        #Text: "Suggest Changes" # edit text
+        #appendFilePath: true # to append file path to Edit link
 
     # for search
     # https://fusejs.io/api/options.html
@@ -101,16 +114,16 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        #- identifier: categories
-          #name: categories
-          #url: /categories/
-          #weight: 10
-        #- identifier: tags
-          #name: tags
-          #url: /tags/
-          #weight: 20
-        - identifier: Sagar Kapoor
-          name: Sagar Kapoor
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 10
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 20
+        - identifier: WebDev
+          name: WebDev
           url: https://www.sagarkapoor.eu/
           weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma

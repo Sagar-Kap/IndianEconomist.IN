@@ -6,10 +6,9 @@ category:
 summary:
 description: Thomas Malthus used an exponential formula to project population growth into the future. 
 cover:
-  image:
-  alt:
+  image: "Economics.jpg"
   caption:
-  relative: false
+  relative: true
 showtoc: true
-draft: false
+draft: true
 ---
